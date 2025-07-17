@@ -26,6 +26,13 @@ class ConverterExtra extends Converter
      */
     protected $row = 0;
 
+
+	private $tableLookaheadHeader;
+	private $tableLookaheadBody;
+	private $tdSubstitute;
+
+
+
     /**
      * constructor, see Markdownify::Markdownify() for more information
      */
